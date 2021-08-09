@@ -1,12 +1,132 @@
 @import url(../vendors/styles/reset.css);
 @import url(../vendors/styles/normalize.css);
 
-.body {
+.page {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #0e0e0e;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
-  /* font-family: 'Roboto Slab', serif; */
+}
+
+.header {
+  /* position: fixed;
+  top: 0;
+  left: 40px; */
+  height: 75px;
+  /* width: calc(100% - 80px); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 40px;
+  background: #4438ff;
+  /* transform: translateX(40px);
+  -webkit-transform: translateX(40px);
+  -moz-transform: translateX(40px);
+  -ms-transform: translateX(40px);
+  -o-transform: translateX(40px); */
+  z-index: 2;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+/* .nav {
+  margin-left: auto;
+} */
+
+.nav__wrapper {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 30px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.hero {
+  background: #4438ff;
+  /* height: 100vh; */
+  height: calc(100vh - 75px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__image-wrapper {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__image {
+  max-width: 566px;
+  width: 40%;
+  display: block;
+}
+
+.hero__icon-wrapper {
+  align-self: flex-end;
+  width: 50%;
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero__icon-arrow {
+  margin-right: auto;
+  width: 19px;
+  fill: #fff;
+  margin-bottom: 20px;
+}
+
+.hero__icon-info {
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  line-height: 36px;
+  text-decoration: none;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about {
+  width: 100%;
+  padding: 200px 0;
+}
+
+.about__text {
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  max-width: 1160px;
+  font-size: 34px;
+  line-height: 1.6;
+}
+
+.about__link {
+  text-decoration: none;
+  border-bottom: 3px solid #0e0e0e;
+  color: #0e0e0e;
+}
+
+.about__link:hover {
+  border-bottom: 3px solid rgb(168, 168, 168);
 }
