@@ -1,0 +1,6 @@
+.footer__column-social {
+  list-style: none;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+}

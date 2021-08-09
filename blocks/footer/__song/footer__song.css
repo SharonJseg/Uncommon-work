@@ -1,0 +1,8 @@
+.footer__song {
+  position: absolute;
+  top: 0;
+  right: -330px;
+  font-size: 13px;
+  font-weight: 500;
+  z-index: -1;
+}

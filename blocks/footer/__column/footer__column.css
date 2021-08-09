@@ -1,0 +1,9 @@
+.footer__column {
+  width: 22%;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.footer__column:last-child {
+  margin-left: auto;
+}

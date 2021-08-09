@@ -1,0 +1,25 @@
+.client__logo {
+  margin: 0 auto;
+  display: block;
+  max-width: 240px;
+  width: 100%;
+  filter: grayscale(1);
+  transform: scale(1);
+  transition: filter, transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: filter,
+    transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: filter, transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -ms-transition: filter, transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: filter, transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.client__logo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}

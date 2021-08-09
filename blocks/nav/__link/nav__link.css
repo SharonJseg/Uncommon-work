@@ -1,0 +1,9 @@
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+}

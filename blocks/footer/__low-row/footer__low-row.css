@@ -1,0 +1,13 @@
+.footer__low-row {
+  max-width: 1400px;
+  width: 80%;
+  padding-bottom: 30px;
+  letter-spacing: 1.1px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__low-row:hover .footer__metal {
+  opacity: 1;
+}

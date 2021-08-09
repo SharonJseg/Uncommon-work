@@ -1,0 +1,7 @@
+.about__text {
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  max-width: 1160px;
+  font-size: 34px;
+  line-height: 1.6;
+}

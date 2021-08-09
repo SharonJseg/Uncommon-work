@@ -1,0 +1,19 @@
+.header {
+  /* position: fixed;
+  top: 0;
+  left: 40px; */
+  height: 75px;
+  /* width: calc(100% - 80px); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 40px;
+  background: #4438ff;
+  /* transform: translateX(40px);
+  -webkit-transform: translateX(40px);
+  -moz-transform: translateX(40px);
+  -ms-transform: translateX(40px);
+  -o-transform: translateX(40px); */
+  z-index: 2;
+}

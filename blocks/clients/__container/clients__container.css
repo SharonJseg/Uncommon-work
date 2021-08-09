@@ -1,0 +1,9 @@
+.clients__container {
+  margin: auto;
+  padding: 100px 40px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px;
+}

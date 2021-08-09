@@ -1,0 +1,9 @@
+.latest__heading {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
