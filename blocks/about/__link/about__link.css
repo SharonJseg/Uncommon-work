@@ -7,3 +7,15 @@
 .about__link:hover {
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 425px) {
+  .about__link {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__link {
+    display: inline;
+  }
+}

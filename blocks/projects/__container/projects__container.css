@@ -6,3 +6,9 @@
   grid-auto-rows: auto;
   gap: 40px;
 }
+
+@media screen and (max-width: 425px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+}

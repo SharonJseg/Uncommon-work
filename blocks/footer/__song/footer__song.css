@@ -1,8 +1,23 @@
 .footer__song {
   position: absolute;
   top: 0;
-  right: -330px;
+  left: 1000px;
   font-size: 13px;
   font-weight: 500;
   z-index: -1;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__song {
+    top: 60px;
+    right: -197px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer__song {
+    top: 90px;
+    right: 0;
+  }
 }

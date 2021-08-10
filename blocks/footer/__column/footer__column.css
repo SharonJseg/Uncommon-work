@@ -7,3 +7,10 @@
 .footer__column:last-child {
   margin-left: auto;
 }
+
+@media screen and (max-width: 479px) {
+  .footer__column {
+    font-size: 15px;
+    width: 100%;
+  }
+}

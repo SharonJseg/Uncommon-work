@@ -7,15 +7,22 @@
     -o-transform: translateX(0);
   }
   to {
-    transform: translateX(-800px);
-    -webkit-transform: translateX(-800px);
-    -moz-transform: translateX(-800px);
-    -ms-transform: translateX(-800px);
-    -o-transform: translateX(-800px);
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    -moz-transform: translateX(-700px);
+    -ms-transform: translateX(-700px);
+    -o-transform: translateX(-700px);
   }
 }
 
 .slide {
   animation: slide 15s linear 2s infinite;
   -webkit-animation: slide 15s linear 4s infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .slide {
+    animation: none;
+    -webkit-animation: none;
+  }
 }

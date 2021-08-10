@@ -1,7 +1,15 @@
 .hero__image-wrapper {
   width: 100%;
+  height: calc(100% - 80px);
   align-self: flex-end;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .hero__image-wrapper {
+    height: calc(100% - 42px);
+  }
 }

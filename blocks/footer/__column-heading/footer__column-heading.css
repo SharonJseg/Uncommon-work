@@ -2,3 +2,9 @@
   font-weight: 500;
   margin-bottom: 25px;
 }
+
+@media screen and (max-width: 479px) {
+  .footer__column-heading {
+    margin-bottom: 10px;
+  }
+}

@@ -3,4 +3,19 @@
   font-size: 13px;
   font-weight: 500;
   background-color: #fff;
+  position: relative;
+}
+
+.footer__music::before {
+  content: '♫';
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__music {
+    margin-left: 15px;
+    width: 100%;
+  }
 }

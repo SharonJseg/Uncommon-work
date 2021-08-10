@@ -1,8 +1,13 @@
 .hero__icon-wrapper {
   align-self: flex-end;
   width: 50%;
-  margin-top: 15vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+  .hero__icon-wrapper {
+    display: none;
+  }
 }

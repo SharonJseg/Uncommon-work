@@ -2,3 +2,9 @@
   background: #f3f3f3;
   margin-top: 200px;
 }
+
+@media screen and (max-width: 425px) {
+  .clients {
+    margin-top: 100px;
+  }
+}

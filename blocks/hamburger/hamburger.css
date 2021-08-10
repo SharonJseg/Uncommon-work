@@ -1,0 +1,44 @@
+.hamburger {
+  width: 3rem;
+  height: 2px;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 37px;
+  right: 41px;
+  display: none;
+}
+
+.hamburger::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.hamburger::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hamburger {
+    right: 25px;
+  }
+}

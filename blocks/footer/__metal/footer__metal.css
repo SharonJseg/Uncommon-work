@@ -5,3 +5,9 @@
   background: #fff;
   transition: opacity 0.4s 0.2s;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__metal {
+    display: none;
+  }
+}

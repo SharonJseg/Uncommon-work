@@ -23,3 +23,10 @@
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
 }
+
+@media screen and (max-width: 768px) {
+  .client__logo {
+    filter: none;
+    -webkit-filter: none;
+  }
+}

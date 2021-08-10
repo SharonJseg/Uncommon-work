@@ -2,3 +2,10 @@
   display: inline-block;
   margin-top: 23px;
 }
+
+@media screen and (max-width: 479px) {
+  .footer__column-contact_phone {
+    display: block;
+    margin-top: 15px;
+  }
+}

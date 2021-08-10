@@ -1,6 +1,12 @@
 .footer__reg {
   font-size: 13px;
   font-weight: 500;
-  padding-right: 56px;
   background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__reg {
+    padding: 0;
+    width: 100%;
+  }
 }
