@@ -7,11 +7,11 @@
     -o-transform: translateX(0);
   }
   to {
-    transform: translateX(-700px);
-    -webkit-transform: translateX(-700px);
-    -moz-transform: translateX(-700px);
-    -ms-transform: translateX(-700px);
-    -o-transform: translateX(-700px);
+    transform: translateX(-1000px);
+    -webkit-transform: translateX(-1000px);
+    -moz-transform: translateX(-1000px);
+    -ms-transform: translateX(-1000px);
+    -o-transform: translateX(-1000px);
   }
 }
 
